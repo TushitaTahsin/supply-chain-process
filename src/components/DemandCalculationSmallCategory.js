@@ -8,14 +8,24 @@ class DemandCalculationSmallCategory extends Component {
     return (
       <div>
         <h4>Demand for each small category for each shop</h4>
-        <input
+        {/* <input
           class="form-control basicAutoComplete"
           type="text"
           data-url="myurl"
           autocomplete="on"
           placeholder="Filter by shop name(autocomplete search bar)"
           style={{ width: "500px" }}
-        ></input>
+        ></input> */}
+        <select
+          class="form-select form-select-md mb-3"
+          aria-label=".form-select-md example"
+          style={{ width: "500px", marginBottom: "10px" }}
+        >
+          <option selected>Filter by shop name(autocomplete search bar)</option>
+          <option value="1">Shop 1</option>
+          <option value="2">Shop 2</option>
+          <option value="3">Shop 3</option>
+        </select>
         {/* <select class="mdb-select md-form" searchable="Search here..">
           <option value="" disabled selected>
             Choose your country
