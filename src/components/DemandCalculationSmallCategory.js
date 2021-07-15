@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import * as mdb from "mdb-ui-kit";
+// import * as mdb from "mdb-ui-kit";
 import classes from "./TableStyling.css";
+import "tailwindcss/tailwind.css";
 
 class DemandCalculationSmallCategory extends Component {
   render() {
     return (
       <div>
         <h4>Demand for each small category for each shop</h4>
+
         {/* <input
           class="form-control basicAutoComplete"
           type="text"
@@ -16,6 +18,28 @@ class DemandCalculationSmallCategory extends Component {
           placeholder="Filter by shop name(autocomplete search bar)"
           style={{ width: "500px" }}
         ></input> */}
+        {/* <table class="border-separate border border-green-800 ...">
+          <thead>
+            <tr>
+              <th class="border border-green-600 ...">State</th>
+              <th class="border border-green-600 ...">City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-green-600 ...">Indiana</td>
+              <td class="border border-green-600 ...">Indianapolis</td>
+            </tr>
+            <tr>
+              <td class="border border-green-600 ...">Ohio</td>
+              <td class="border border-green-600 ...">Columbus</td>
+            </tr>
+            <tr>
+              <td class="border border-green-600 ...">Michigan</td>
+              <td class="border border-green-600 ...">Detroit</td>
+            </tr>
+          </tbody>
+        </table> */}
         <select
           class="form-select form-select-md mb-3"
           aria-label=".form-select-md example"
