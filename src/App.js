@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Switch, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "tailwindcss/tailwind.css";
 import "./App.css";
 
 import Home from "./components/home";
@@ -19,7 +17,7 @@ class App extends Component {
           </Link>
           <div className="navbar-nav mr-auto">
             <li className="nav-item">
-              <Link to={"/home"} className="nav-link">
+              <Link to={"/home"} className="text-yellow-400">
                 Home
               </Link>
             </li>

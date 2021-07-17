@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Form from "react-validation/build/form";
-import classes from "./TableStyling.css";
 
 class TransferStock extends Component {
   render() {

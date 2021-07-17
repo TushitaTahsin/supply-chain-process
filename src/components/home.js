@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "tailwindcss/tailwind.css";
-import { MDBTable, MDBTableBody, MDBTableHead } from "mdbreact";
 
 class Home extends Component {
   render() {
